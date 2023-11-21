@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f3f3f7;
+  /* background-color: aqua; */
+}
+
+body,
+nav {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1480' height='690' preserveAspectRatio='none' viewBox='0 0 1480 690'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1100%26quot%3b)' fill='none'%3e%3crect width='1480' height='690' x='0' y='0' fill='rgba(255%2c 255%2c 255%2c 1)'%3e%3c/rect%3e%3cpath d='M68.01 361.65 a186.5 186.5 0 1 0 373 0 a186.5 186.5 0 1 0 -373 0z' fill='rgba(194%2c 191%2c 191%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M594.521%2c664.125C648.21%2c663.034%2c693.513%2c627.189%2c719.048%2c579.949C743.292%2c535.096%2c742.683%2c481.384%2c717.154%2c437.25C691.662%2c393.18%2c645.412%2c363.188%2c594.521%2c364.666C545.824%2c366.08%2c508.88%2c402.366%2c483.635%2c444.033C457.166%2c487.721%2c437.926%2c539.576%2c460.909%2c585.194C485.854%2c634.707%2c539.09%2c665.251%2c594.521%2c664.125' fill='rgba(194%2c 191%2c 191%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M661.592%2c904.559C722.444%2c901.4%2c768.232%2c853.019%2c794.974%2c798.266C818.374%2c750.354%2c810.203%2c696.922%2c786.276%2c649.271C758.904%2c594.76%2c722.483%2c536.23%2c661.592%2c532.637C596.335%2c528.787%2c540.842%2c576.061%2c508.523%2c632.883C476.601%2c689.007%2c470.154%2c757.232%2c501.848%2c813.485C534.096%2c870.721%2c595.985%2c907.965%2c661.592%2c904.559' fill='rgba(194%2c 191%2c 191%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1118.23%2c537.837C1176.226%2c536.735%2c1238.046%2c526.761%2c1269.062%2c477.744C1301.89%2c425.863%2c1294.982%2c359.5%2c1264.963%2c305.945C1234.208%2c251.078%2c1181.058%2c205.667%2c1118.23%2c208.656C1058.928%2c211.477%2c1023.844%2c267.615%2c993.836%2c318.842C963.342%2c370.899%2c927.332%2c431.214%2c957.13%2c483.673C987.12%2c536.471%2c1057.52%2c538.991%2c1118.23%2c537.837' fill='rgba(194%2c 191%2c 191%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M349.21 560.82 a121.01 121.01 0 1 0 242.02 0 a121.01 121.01 0 1 0 -242.02 0z' fill='rgba(194%2c 191%2c 191%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M723.162%2c237.645C764.806%2c235.877%2c802.9%2c214.342%2c823.495%2c178.103C843.848%2c142.29%2c843.817%2c98.071%2c822.525%2c62.808C801.911%2c28.667%2c763.038%2c12.596%2c723.162%2c11.933C681.917%2c11.248%2c640.704%2c25.027%2c617.91%2c59.408C592.569%2c97.631%2c583.581%2c147.811%2c606.9%2c187.3C629.916%2c226.276%2c677.939%2c239.565%2c723.162%2c237.645' fill='rgba(194%2c 191%2c 191%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1100'%3e%3crect width='1480' height='690' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+}
+
+nav {
+  height: 90px;
+  display: flex;
+  align-items: end;
+  box-shadow: 0px 2px 3px 0px rgba(134, 134, 255, 0);
+  margin-bottom: 20px;
+  z-index: 100px;
+  background-color: #ffff;
+  align-items: center;
+  column-gap: 43%;
+}
+
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 55%;
+  height: 40vw;
+  margin: auto;
+  box-shadow: 4px 20px 20px 2px #c0d5ff;
+
+}
+
+td,
+th,
+tr {
+
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  background-color: #ffff;
+  background-image: #ffff;
+  border: 1px solid black;
+  border-radius: 30%;
+  padding: 5px;
+  border-spacing: 30px;
+  border-collapse: collapse;
+
+}
+
+.center {
+  text-align: center;
+}
+
+#heading {
+  background-color: none;
+  align-self: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: 30px;
+
+}
